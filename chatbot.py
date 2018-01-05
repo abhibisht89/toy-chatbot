@@ -18,7 +18,7 @@ import builtins
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--save_dir', type=str, default='E:\\DSPY\\chatbot\\chatbot-rnn-master\\models\\reddit',
+    parser.add_argument('--save_dir', type=str, default='models/reddit',
                        help='model directory to store checkpointed models')
     parser.add_argument('-n', type=int, default=500,
                        help='number of characters to sample')
